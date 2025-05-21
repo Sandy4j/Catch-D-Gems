@@ -1,6 +1,24 @@
-﻿  main.cpp
-C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\main.cpp(57,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\main.cpp(120,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\main.cpp(394,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\main.cpp(393,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  GameManager.cpp
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameManager.cpp(43,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GameStates.cpp
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(37,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(38,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(39,96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(40,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(44,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(175,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(177,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(180,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(182,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\GameStates.cpp(183,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  InputHandler.cpp
+  main.cpp
+  ObjectFactory.cpp
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\ObjectFactory.cpp(84,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\ObjectFactory.cpp(124,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Player.cpp
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\Player.cpp(44,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\Player.cpp(43,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  ScoreSystem.cpp
+  Generating Code...
   Project Akhir Game Design Pattern.vcxproj -> C:\Users\Yoga Sandy\Documents\GitHub\Project-Akhir-Game-Design-Pattern\x64\Debug\Project Akhir Game Design Pattern.exe

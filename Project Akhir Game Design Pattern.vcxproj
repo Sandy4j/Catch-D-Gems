@@ -104,12 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Yoga Sandy\Libraries\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yoga Sandy\Libraries\Raylib\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Yoga Sandy\Libraries\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Yoga Sandy\Libraries\Raylib\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>raylib.lib;winmm.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -130,7 +130,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameStates.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ScoreSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameStates.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="ObjectFactory.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ScoreSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
