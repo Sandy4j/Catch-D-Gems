@@ -1,6 +1,7 @@
 #pragma once
 #include "raylib.h"
-#include "Player.h"
+
+class Player;
 
 class Command {
 public:
@@ -10,16 +11,12 @@ public:
 
 class MoveLeftCommand : public Command {
 public:
-    void execute(Player* player, float deltaTime) override {
-        player->moveLeft(deltaTime);
-    }
+    void execute(Player* player, float deltaTime) override;
 };
 
 class MoveRightCommand : public Command {
 public:
-    void execute(Player* player, float deltaTime) override {
-        player->moveRight(deltaTime);
-    }
+    void execute(Player* player, float deltaTime) override;
 };
 
 class InputHandler {
@@ -28,9 +25,38 @@ private:
     Command* rightCommand;
 
 public:
-    InputHandler();
-    ~InputHandler();
-    void handleInput(Player* player, float deltaTime);
+    InputHandler() {
+        leftCommand = new MoveLeftCommand();
+        rightCommand = new MoveRightCommand();
+    }
 
-    bool isKeyPressed(int key) const;
+    ~InputHandler() {
+        delete leftCommand;
+        delete rightCommand;
+    }
+
+    void handleInput(Player* player, float deltaTime);
+    bool isKeyPressed(int key) const {
+        return IsKeyPressed(key);
+    }
 };
+
+#include "Player.h"
+
+inline void MoveLeftCommand::execute(Player* player, float deltaTime) {
+    player->moveLeft(deltaTime);
+}
+
+inline void MoveRightCommand::execute(Player* player, float deltaTime) {
+    player->moveRight(deltaTime);
+}
+
+inline void InputHandler::handleInput(Player* player, float deltaTime) {
+    if (IsKeyDown(KEY_LEFT) || IsKeyDown(KEY_A)) {
+        leftCommand->execute(player, deltaTime);
+    }
+
+    if (IsKeyDown(KEY_RIGHT) || IsKeyDown(KEY_D)) {
+        rightCommand->execute(player, deltaTime);
+    }
+}

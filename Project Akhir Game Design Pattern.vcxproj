@@ -132,11 +132,8 @@
   <ItemGroup>
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GameStates.cpp" />
-    <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ObjectFactory.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="ScoreSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameManager.h" />
