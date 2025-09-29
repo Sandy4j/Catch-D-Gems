@@ -118,10 +118,10 @@ inline void ScoreSystem::update(float deltaTime) {
 
 inline void ScoreSystem::render() const {
     GameManager* gm = GameManager::getInstance();
-    DrawTextEx(font, TextFormat("Score: %d", currentScore), Vector2{ 10, 10 }, 30, 1, BLACK);
+    DrawTextEx(font, TextFormat("Score: %d", currentScore), Vector2{ 10, 10 }, 30, 1, WHITE);
 
     if (highScore > 0) {
-        DrawTextEx(font, TextFormat("High Score: %d", highScore), Vector2{ 10, 50 }, 20, 1, DARKGRAY);
+        DrawTextEx(font, TextFormat("High Score: %d", highScore), Vector2{ 10, 50 }, 20, 1, LIGHTGRAY);
     }
     for (const auto& text : floatingTexts) {
         text.render(font);
