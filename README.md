@@ -206,15 +206,9 @@ collectdgems/
 ## 📚 Course Information
 
 **Course:** Design Pattern Programming  
-**Institution:** [Your Institution Name]  
-**Academic Year:** [Year]
+**Institution:** Electronic Engineering Polytechnic Institute of Surabaya  
+**Academic Year:** 2025
 
 ## 📝 License
 
 This project is created for educational purposes as part of a Design Pattern Programming course assignment.
-
----
-
-⭐ If you found this project helpful, please consider giving it a star!
-
-🐛 Found a bug or have a suggestion? Feel free to open an issue!
